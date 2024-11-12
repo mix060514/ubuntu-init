@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update && sudo apt upgrade
-sudo apt install curl vim git xclilp -y
+sudo apt install curl vim git xclip python3-pip python-is-python3 -y
 
 # git config
 git config --global user.name "mix060514"
