@@ -11,10 +11,10 @@ git config --global user.email "mix060514@gmail.com"
 
 # nvim
 cd ~
-curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
 sudo rm -rf /opt/nvim
-sudo tar -C /opt -xzf nvim-linux64.tar.gz
-sudo rm nvim-linux64.tar.gz
+sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+sudo rm nvim-linux-x86_64.tar.gz
 
 if [ ! -d "$HOME/.config" ]; then
   mkdir -p "$HOME/.config"
