@@ -1,0 +1,17 @@
+sudo apt update
+sudo apt install postgresql postgresql-contrib -y 
+
+# step
+sudo -i -u postgres
+postgres@server:~$ createuser --interactive
+# Enter name of role to add: mix060514
+# Shall the new role be a superuser? (y/n)
+createdb mix060514
+# then login back to mix060514 and can use psql by user mix060514
+
+# see also: use sql syntax
+# https://fromideatocreation.com/%E5%A6%82%E4%BD%95%E5%9C%A8-ubuntu-20-04-%E4%B8%8A%E5%AE%89%E8%A3%85-postgresql/
+# sudo -u postgres psql
+# postgres=# CREATE DATABASE yourdbname;
+# postgres=# CREATE USER youruser WITH ENCRYPTED PASSWORD 'yourpass';
+# postgres=# GRANT ALL PRIVILEGES ON DATABASE yourdbname TO youruser;
