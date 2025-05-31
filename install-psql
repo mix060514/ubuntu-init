@@ -9,7 +9,10 @@ postgres@server:~$ createuser --interactive
 createdb mix060514
 # then login back to mix060514 and can use psql by user mix060514
 
+
 # see also: use sql syntax
+# if you want use dbeaver like tool to connect psql, you will need not only account but also passwd.
+
 # https://fromideatocreation.com/%E5%A6%82%E4%BD%95%E5%9C%A8-ubuntu-20-04-%E4%B8%8A%E5%AE%89%E8%A3%85-postgresql/
 # sudo -u postgres psql
 # postgres=# CREATE DATABASE yourdbname;
