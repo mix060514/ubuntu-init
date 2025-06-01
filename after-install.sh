@@ -2,7 +2,11 @@
 
 cd ~
 sudo apt update && sudo apt upgrade
-sudo apt install curl vim git xclip python3-pip python-is-python3 -y
+sudo apt install curl vim git xclip python3-pip python-is-python3 wslu -y
+
+# for scrapy show view(response) on host windows browser
+echo 'export BROWSER=wslview' >> ~/.bashrc
+
 
 # git config
 git config --global user.name "mix060514"
